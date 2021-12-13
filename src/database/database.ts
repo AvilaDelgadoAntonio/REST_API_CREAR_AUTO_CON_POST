@@ -2,8 +2,8 @@ import mongoose from 'mongoose';
 
 class DataBase {
 
-    private _cadenaConexion: string = 'mongodb://localhost/aad_REST-API'
-    private _cadenaConexion2:string= `mongodb+srv://***:****@cluster0.sentg.mongodb.net/test?retryWrites=true&w=majority`
+    private _cadenaConexion2: string = 'mongodb://localhost/aad_REST-API'
+    private _cadenaConexion:string= `mongodb+srv://empresa:empresa@cluster0.sentg.mongodb.net/test?retryWrites=true&w=majority`
     constructor(){
 
     }
